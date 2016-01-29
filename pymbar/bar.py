@@ -267,6 +267,7 @@ def BAR(w_F, w_R, DeltaF=0.0, compute_uncertainty=True, maximum_iterations=500, 
 
             if FNew == 0:
                 # Convergence is achieved.
+                # teste
                 if verbose:
                     print("Convergence achieved.")
                 relative_change = 10 ** (-15)
